@@ -14,7 +14,13 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-K8X7VZNK7E');
+  gtag('config', 'G-K8X7VZNK7E', {
+
+'custom_map': {'dimension1': 'ip'}
+
+});
+
+gtag('event', 'ip_address', {'ip': myip});
 </script>
 	</head>
 	<body>
