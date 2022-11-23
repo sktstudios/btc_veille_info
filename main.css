@@ -146,16 +146,20 @@ ul {
   0% {
     stroke-dashoffset: 2110;
     opacity:0;
+    stroke:orange;
   }
   15%{
     opacity:1;
+    stroke:orange;
   }
   70%{
     opacity:1;
+    stroke:orange;
   }
   100%{
     stroke-dashoffset:0;
     opacity:0;
+    stroke:orange;
   }
 }
 footer {
