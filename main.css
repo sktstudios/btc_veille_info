@@ -84,11 +84,19 @@ ul {
     padding: 25px;
     font-size: 18px;
 }
+.right-column h3{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.right-column h4, .right-column p,.left-column h3,.left-column p{
+    margin-bottom: 10px;
+}
 .profil {
     display: block;
     width: 30%;
     border-radius: 50%;
     margin: auto;
+    margin-bottom: 10px;
 }
 .comp li{
     margin: 10px;
