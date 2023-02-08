@@ -309,15 +309,41 @@ footer p {
     h1{
         font-size: 25px;
         float: none;
-        margin-left: 0px
+        margin-left: 0px;
     }
     h2{
         font-size: 15px;
         float: none;
-        margin-left: 0px
+        margin-left: 0px;
     }
     #particles-js{
         display: none;
     }
-    
+    .rien{
+       margin: 5px;
+        margin-right: 10px;
+    }
+    .left-column, .right-column{
+        width: 145px;
+    }
+    .cv{
+        padding: 0px
+    }
+    .left-column{
+    font-size: 15px;
+    }
+    .right-column{
+        font-size: 16px;
+    }
+    .right-column h3{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+    .profil {
+    width: 50%;
+    }
+    .et{
+        display: none;
+    }
 }
