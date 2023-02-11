@@ -17,10 +17,13 @@ nav {
   top: 0px;
   z-index: 10;
 }
+nav a{
+    text-decoration: none
+}
 .ulu {
     overflow: hidden;
     padding: 0px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(30, 30, 30, 0.5);
     backdrop-filter: blur(5px);
 }
 h1 {
@@ -33,6 +36,7 @@ h1 {
     font-size: 40px;
     float: left;
     margin-left: 20px;
+    
 }
 h2{
     color: white;
@@ -44,6 +48,10 @@ h2{
     font-size: 20px;
     float: left;
     margin-left: 20px;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 .rien {
     padding: 0px;
@@ -115,7 +123,7 @@ ul {
     border-radius: 10px;
     border-width: 2px;
     border-style: solid;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 .mid_acceuil .tit{
     font-size: 28px;
@@ -134,7 +142,7 @@ ul {
     font-size: 16px;
     font-family: arial;
     margin: 15px;
-        }
+}
 #bitcoin{
   width:200px;
   margin:0 auto;
@@ -148,7 +156,7 @@ ul {
   stroke-linecap:round;
   animation: dash 6s linear infinite;
   fill-opacity:0;
-  stroke:orange;
+  stroke: orange;
 }
 @keyframes dash {
   0% {
@@ -312,7 +320,7 @@ footer p {
         margin-left: 0px;
     }
     h2{
-        font-size: 15px;
+        font-size: 14px;
         float: none;
         margin-left: 0px;
     }
@@ -322,12 +330,11 @@ footer p {
     .rien{
        margin: 5px;
         margin-right: 10px;
-    }
-    .left-column, .right-column{
-        width: 145px;
+        float: none;
     }
     .cv{
-        padding: 0px
+        padding: 0px;
+        grid-template-columns: auto
     }
     .left-column{
     font-size: 15px;
@@ -346,4 +353,50 @@ footer p {
     .et{
         display: none;
     }
+    .mid_acceuil{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        background-color: gr
+    }
+    .mid_acceuil .tit{
+        font-size: 28px;
+    }
+    .mid_acceuil h3{
+        color: black;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 20px;
+        font-family: arial;
+        margin: 15px; 
+    }
+    .mid_acceuil p{
+        color: black;
+        text-align: center;
+        font-size: 16px;
+        font-family: arial;
+        margin: 15px;
+    }
+    #form-main{
+	width:100%;
+	float: none;
+	padding-top:75px;
+    }
+    #form-div {
+        padding-left:35px;
+        padding-right:35px;
+        padding-top:50px;
+        padding-bottom:50px;
+        width: auto;
+        float: left;
+        left: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    textarea {
+        height: 150px;
+        line-height: 150%;
+    }
+
 }
