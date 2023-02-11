@@ -49,10 +49,6 @@ h2{
     float: left;
     margin-left: 20px;
 }
-.menu{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
 .rien {
     padding: 0px;
     float: right;
@@ -326,6 +322,10 @@ footer p {
     }
     #particles-js{
         display: none;
+    }
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     .rien{
        margin: 5px;
