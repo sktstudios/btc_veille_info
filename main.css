@@ -398,5 +398,10 @@ footer p {
         height: 150px;
         line-height: 150%;
     }
-
+    footer {
+        height: 25px;
+    }
+    footer p{
+        font-size: 12px;
+    }
 }
