@@ -399,9 +399,9 @@ footer p {
         line-height: 150%;
     }
     footer {
-        height: 25px;
+        height: 20px;
     }
     footer p{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
