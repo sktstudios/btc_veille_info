@@ -453,4 +453,7 @@ footer p {
     footer p {
         font-size: 14px;
     }
+    .btcfoot {
+        display: none;
+    }
 }
