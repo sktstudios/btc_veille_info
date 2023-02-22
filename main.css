@@ -51,7 +51,7 @@ h2{
 .menu{
     float: right;
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;/* 1fr 1fr 1fr pour 3ème menu */
 }
 .rien {
     padding: 0px;
@@ -351,7 +351,7 @@ footer p {
     }
     .menu{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;/* 1fr 1fr 1fr pour 3ème menu */
         float: none;
     }
     .rien{
@@ -383,7 +383,7 @@ footer p {
     }
     .cv{
         padding: 0px;
-        grid-template-columns: auto
+        grid-template-columns: auto;
     }
     .left-column{
         font-size: 15px;
