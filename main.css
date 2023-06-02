@@ -140,7 +140,7 @@ ul {
 .mid_acceuil{
     margin-right: 25%;
     margin-left: 25%;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     margin-top: 10px;
     border-radius: 10px;
     border-width: 2px;
@@ -405,7 +405,7 @@ footer p {
     .mid_acceuil{
         margin-right: 10px;
         margin-left: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 25px;
         margin-top: 10px;
     }
     .mid_acceuil .tit{
