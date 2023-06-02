@@ -426,6 +426,9 @@ footer p {
         font-family: arial;
         margin: 15px;
     }
+    .tit-btc{
+      font-size: 23px;
+    }
     #form-main{
         width:100%;
         float: none;
@@ -456,12 +459,6 @@ footer p {
         display: none;
     }
 }
-      .container h1 {
-        color: #333;
-        font-size: 28px;
-        margin-bottom: 20px;
-    }
-
     .container ul {
         list-style-type: none;
         padding: 0;
@@ -470,6 +467,7 @@ footer p {
 
     .container li {
         margin-bottom: 10px;
+        margin-top: 6px;
     }
 
     .container a {
