@@ -17,6 +17,7 @@
   gtag('config', 'G-K8X7VZNK7E');
 </script>
         <script defer src="bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	</head>
 	<body>
         <nav>
@@ -94,6 +95,40 @@
         <iframe width="100%" scrolling="yes" allowtransparency="true" frameborder="0" src="https://cryptopanic.com/widgets/news/?bg_color=FFFFFF&amp;currencies=BTC&amp;font_family=sans&amp;header_bg_color=30343B&amp;header_text_color=FFFFFF&amp;link_color=0091C2&amp;news_feed=recent&amp;posts_limit=10&amp;text_color=333333&amp;title=Actualit%C3%A9s%20du%20Bitcoin" height="350px"></iframe>
         
         </div>
+    <div class="container">
+    <h1>Flux RSS sur le Bitcoin</h1>
+    <ul id="rss-feed"></ul>
+
+    <script>
+        $(document).ready(function() {
+            var rssFeedUrl = "https://coinacademy.fr/actu/bitcoin?feed=gn";
+
+            // Utiliser jQuery pour récupérer le flux RSS
+            $.ajax({
+                url: "https://api.rss2json.com/v1/api.json",
+                method: "GET",
+                data: {
+                    rss_url: rssFeedUrl
+                },
+                success: function(response) {
+                    // Parcourir les entrées du flux RSS
+                    response.items.forEach(function(item) {
+                        var title = item.title;
+                        var link = item.link;
+                        var pubDate = item.pubDate;
+
+                        // Ajouter chaque entrée à la liste HTML
+                        var listItem = "<br>" + pubDate + "<br>" + "<li><a href='" + link + "'>" + title + "</a></li>";
+                        $("#rss-feed").append(listItem);
+                    });
+                },
+                error: function() {
+                    console.log("Une erreur s'est produite lors de la récupération du flux RSS.");
+                }
+            });
+        });
+    </script>
+    </div>
 		<footer class="btcfoot">
             <div style="height:62px; background-color: #FFFFFF; overflow:hidden; box-sizing: border-box; border: 0px solid #000000; border-radius: 10px; text-align: right; line-height:14px; block-size:50px; font-size: 12px; font-feature-settings: normal; text-size-adjust: 100%; padding:1px;padding: 0px; margin: 0px; width: 100%; margin-top: 0px">
                 <div style="height:40px; padding:0px; margin:0px; width: 100%;">
