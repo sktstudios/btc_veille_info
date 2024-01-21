@@ -99,7 +99,6 @@ ul {
     padding: 25px;
     list-style-type: none;
     grid-template-columns: 1fr 2fr;
-    border-radius: 20px
 }
 .left-column{
     background: rgba(68, 114, 196, 0.3);
@@ -107,12 +106,16 @@ ul {
     padding: 25px;
     color: mintcream;
     font-size: 19px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
 }
 .right-column{
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
     padding: 25px;
     font-size: 18px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
 }
 .right-column h3{
     margin-top: 25px;
