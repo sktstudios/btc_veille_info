@@ -179,6 +179,8 @@ ul {
 
 .comp li{
     margin: 10px;
+    text-align:left;
+    list-style-type: disc;
 }
 .motive{
     padding: 25px 300px;
