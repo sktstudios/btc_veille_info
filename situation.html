@@ -1,10 +1,9 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="fr">
 	<head>
 		<meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="description" content="Portfolio de Sebastien Fernandez en classe de BTS Services Informatique aux Organisations">
-        <script src="https://kit.fontawesome.com/a08114b2d9.js" crossorigin="anonymous"></script>
 		<title>Mon portfolio</title>
 		<link rel="stylesheet" href="main.css">
         <!-- Google tag (gtag.js) -->
@@ -14,19 +13,24 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-K8X7VZNK7E');
+  gtag('config', 'G-K8X7VZNK7E', {
+
+'custom_map': {'dimension1': 'ip'}
+
+});
+
+gtag('event', 'ip_address', {'ip': '<?=$ip;?>' });
 </script>
-	</head>
-	
+    </head>
 	<body>
-		<nav>
+        <nav>
             <ul class="ulu">
                 <li>
                     <a href="index.html">
                         <h1>Portfolio</h1>
                     </a>
                 </li>
-                <li>
+                    <li>
                         <a href="veille.html" class="rien" >
                             <h2>Veille Informationelle</h2>
                         </a>
@@ -45,29 +49,11 @@
         </nav>
         <div class="cv">
             <div class="left-column">
-                <li>
-                    <img src="photo.webp" class="profil"  alt="Sébastien Fernandez">
-                </li>
-                <h3 style="text-align: center">Fernandez Sébastien</h3>
-                <h3>PROFIL</h3>
-                <p>Etudiant en BTS Services Informatiques aux Organisations option réseau et cybersecurité au Lycée Honoré d'Estienne d'Orves à Nice</p>
-                <h3>CENTRES D'INTÉRÊT</h3>
-                <p>L'informatique, les cryptomonnaies, la musique, le sport automobile</p>
-                <h3>CONTACT</h3>
-                <ul class="comp">
-                    <li><a href="mailto:"ferseb8@gmail.com"">ferseb8@gmail.com</a></li>
-                    <li>06 42 49 90 56</li>
-                    <li><a href="https://www.linkedin.com/in/s%C3%A9bastien-fernandez-732643250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Sébastien Fernandez</a></li>
-                </ul>
+                <h3>Situations professionnelles en formation</h3>
             </div>
             <div class="right-column">
-                <h3>COMPÉTENCES</h3>
-                <h4>Infrastructure :</h4>
-                <ul class="comp">
-                    <li>Cisco CBS 350 (routage intervlan, ACL, SSH)</li>
-                    <li>Cisco 2960 (VLAN, STP, SPAN, SSH)</li>
-                    <li>Routeur Cisco 2901 (NAT, RIP)</li>
-                </ul>
+                <h3>PROJET GSB</h3>
+                <p>Durant la deuxième année du BTS SIO nous avons du mettre en place  un projet basé sur le contexte de GSB. Il nous a donc fallu mettre en place un réseau virtuel composé de deux serveurs intégrant plusieurs services.</p>
                 <h4>Système :</h4>
                 <ul class="comp">
                     <li>Windows Server 2019 (ADDS, GPO, DHCP, DFS)</li>
@@ -97,11 +83,7 @@
                 </ul>
             </div>
         </div>
-        <div class="submit_cv">
-            <a href="cv_fernandez_sébastien.pdf" download="CV_Sébastien_Fernandez.pdf" id="button-red">PDF</a>
-            <div class="ease"></div>
-        </div>
-		<footer>
+        <footer>
             <a href="contact.html" class="contact" >
                 <p>Contact</p>
             </a>
