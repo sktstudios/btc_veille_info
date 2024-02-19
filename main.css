@@ -110,6 +110,15 @@ ul {
 .left-column h3{
     text-align: center;
 }
+.cvleft-column{
+    background: rgba(68, 114, 196, 0.3);
+    backdrop-filter: blur(5px);
+    padding: 25px;
+    color: mintcream;
+    font-size: 19px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+}
 .right-column{
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
