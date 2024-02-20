@@ -134,6 +134,9 @@ ul {
 .right-column h4, .right-column p,.left-column h3,.left-column p{
     margin-bottom: 10px;
 }
+.cvleft-column h3, .cvleft-column p{
+    margin-bottom: 30px;
+}
 .profil {
     display: block;
     width: 30%;
