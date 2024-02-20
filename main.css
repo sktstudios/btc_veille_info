@@ -144,6 +144,10 @@ ul {
     margin: auto;
     margin-bottom: 10px;
 }
+.img-certif{
+    width: 12%;
+    margin-right: 10px;
+}
 .submit_cv{
     padding-left:35px;
     padding-right:35px;
