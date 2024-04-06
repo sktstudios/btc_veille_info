@@ -95,6 +95,12 @@ ul {
     list-style-type: none;
     grid-template-columns: 1fr 2fr;
 }
+.cv2{
+    display: grid;
+    padding: 25px;
+    list-style-type: none;
+    grid-template-columns: fr fr;
+}
 .left-column{
     background: rgba(68, 114, 196, 0.3);
     backdrop-filter: blur(5px);
@@ -147,6 +153,14 @@ ul {
 .img-certif{
     width: 12%;
     margin-right: 10px;
+}
+.img-certif2{
+    width: 25%;
+    margin: 15px;
+    transition: filter 0.32s, transform 0.32s;
+}
+.img-certif2:hover{
+    transform: scale(1.1);
 }
 .submit_cv{
     padding-left:35px;
@@ -265,7 +279,38 @@ ul {
     font-family: arial;
     margin: 15px; 
 }
-.mid_acceuil p{
+.mid_acceuil2 p{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: arial;
+    margin: 15px;
+}
+.mid_acceuil2{
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    border-width: 2px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    border-style: none;
+    padding-left: 65px
+}
+.mid_acceuil2{
+    font-size: 28px;
+}
+.mid_acceuil h3{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: arial;
+    margin: 15px;
+}
+.mid_acceuil2 p{
     color: black;
     text-align: center;
     font-size: 16px;
