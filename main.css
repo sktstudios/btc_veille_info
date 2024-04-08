@@ -279,7 +279,7 @@ ul {
     font-family: arial;
     margin: 15px; 
 }
-.mid_acceuil2 p{
+.mid_acceuil p{
     color: black;
     text-align: center;
     font-size: 16px;
@@ -301,14 +301,6 @@ ul {
 }
 .mid_acceuil2{
     font-size: 28px;
-}
-.mid_acceuil h3{
-    color: black;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 20px;
-    font-family: arial;
-    margin: 15px;
 }
 .mid_acceuil2 p{
     color: black;
